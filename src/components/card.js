@@ -5,12 +5,12 @@ import Image from "gatsby-image"
 const Card = ({ frontmatter, slug }) => {
   return (
     <figure className="card-styles">
-      <Link to={slug}>
+      {/* <Link to={slug}>
         <Image
           className="card-image"
           fluid={frontmatter.featuredImage.childImageSharp.fluid}
         />
-      </Link>
+      </Link> */}
 
       <figcaption>
         <Link to={`/${frontmatter.category.toLowerCase().replace(" ", "-")}`}>

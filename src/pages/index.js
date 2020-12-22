@@ -78,7 +78,7 @@ const IndexPage = props => {
             })}
           </div>
           <div className="sidebar">
-            <h2 className="sidebar-header">Mailing List</h2>
+            {/* <h2 className="sidebar-header">Mailing List</h2>
             <div className="sidebar-emails">
               <h2>Mailing list here</h2>
               <p>Subscribe to my list for lots of great reasons</p>
@@ -91,7 +91,7 @@ const IndexPage = props => {
                 />{" "}
               </form>
               <span>Weekly updates, unsubscribe at any time</span>
-            </div>
+            </div> */}
             <h2 className="sidebar-header">Popular Articles</h2>
             <div>
               {data.allMarkdownRemark.edges.map(({ node }, index) => {
